@@ -1,0 +1,42 @@
+---
+title: "Olfactory dysfunction after SARS-CoV-2-Infection?"
+description: |
+  Overview of the effects of SARS-CoV-2 infection on the olfactory system
+date: 2022-11-10
+author: 
+  - name: Thibault Lovey
+image: military_conference.png
+draft: false
+---
+## Overview
+
+This presentation provides a comprehensive overview of the effects of SARS-CoV-2 infection on the olfactory system, with a particular focus on healthy young adults. It explores the prevalence, mechanisms, and potential long-term consequences of olfactory dysfunction following SARS-CoV-2 infection.
+
+## Event details
+
+{{< fa regular calendar-check >}}&nbsp;&nbsp; Fachdienstkurs Militär und Katastrophenmedizin (FDK MKM 2022)<br>
+{{< fa regular calendar-alt >}}&nbsp;&nbsp; November 10th, 2022<br>
+{{< fa regular clock >}}&nbsp;&nbsp; 10:00-11:30 CET<br>
+{{< fa regular map-marker-alt >}}&nbsp;&nbsp; Kaserne, Gebäude Q1, 3609 Thun, Switzerland
+
+## Slides
+
+<iframe class="slide-deck ar16x9" src="military_conference.html" title="Olfactory dysfunction after SARS-CoV-2-Infection?" width="125%" height="550"></iframe>
+
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cv-download" href="military_conference.html" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i> Download Slides
+  </a>
+</p>
+
+
+
+<!-- Keyboard shortcuts for slideshow (once you've clicked inside it): -->
+
+<!-- - Use <kbd>←</kbd> and <kbd>→</kbd> to navigate through the slides. -->
+
+<!-- - Use <kbd>o</kbd> for an overview of all slides. -->
+
+<!-- - Use <kbd>h</kbd> to see a list of other shortcuts  -->
+
+<!--   - <kbd>f</kbd> to toggle full screen not working, but the rest are fine. -->

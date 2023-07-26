@@ -1,0 +1,50 @@
+project:
+  type: website
+
+website:
+  reader-mode: false
+  title: "thibaultlovey.com"
+  twitter-card: true
+  open-graph: true
+  navbar:
+    right:
+      - href: index.qmd
+        text: About Me
+      - href: about.qmd
+        text: Publications
+      - href: cv.qmd
+        text: CV
+      - href: talk.qmd
+        text: Talks
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            url: https://github.com/forwards/website_source
+          - text: Report a Bug
+            url: https://github.com/forwards/website_source
+  page-footer:
+    left:
+      - icon: envelope
+        text: "Let's connect! "
+        href: https://github.com/
+      - icon: twitter 
+        href: "https://twitter.com/mikemahoney218" 
+      - icon: linkedin 
+        href: "https://linkedin.com/in/mikemahoney218" 
+      - icon: envelope 
+        href: "mailto:mike.mahoney.218+site@gmail.com"
+    center: |
+      <span class="faux-block">{{< fa brands creative-commons >}} 2023 Thibault Lovey<br> </span>
+      <span class="faux-block" style="margin-top: 10px;">All content licensed under<br>{{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-sa >}} Creative Commons CC BY-SA 4.0</span>      
+    right: 
+     - text: "View code on Github"
+       href: "https://github.com/2323"
+format:
+  html:
+    theme:
+     light: flatly
+    toc: false
+
+
+

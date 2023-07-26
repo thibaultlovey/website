@@ -1,0 +1,6 @@
+---
+title: "Talk"
+listing:
+  contents: posts
+  sort: "date desc"
+---
