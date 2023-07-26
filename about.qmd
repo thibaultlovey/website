@@ -2,7 +2,6 @@
 title: "Publications"
 output:
   distill::distill_article:
-    toc: false
 ---
 
 ```{r setup, echo=FALSE}

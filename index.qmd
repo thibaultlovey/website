@@ -9,19 +9,23 @@ about:
   links:
     - text: LinkedIn
       icon: linkedin
-      url: "https://linkedin.com/in/mikemahoney218"
+      url: "www.linkedin.com/in/thibault-lovey-098b3430"
     - text: Twitter
       icon: twitter
-      url: "https://twitter.com/mikemahoney218"
+      url: "https://twitter.com/thibaultlovey"
     - text: GitHub
       icon: github
-      url: "https://github.com/mikemahoney218"
+      url: "https://github.com/thibaultlovey"
     - text: "{{< ai google-scholar >}} Google Scholar"
-      url: "mailto:mike.mahoney.218+site@gmail.com"
+      url: "https://scholar.google.com/citations?user=xN83U3oAAAAJ"
     - text: Mail
       icon: envelope
-      url: "https://github.com/mikemahoney218"
+      url: "mailto:thibault.lovey@uzh.ch"
 comments: false
 ---
+## Hi ! Welcome to my website!
 
-Born in Valais, Switzerland, he graduated in medicine with a mention in global health and humanitarian medicine from the University of Geneva, and holds a certificate in applied statistics from the Geneva School of Economics and Management. He has accumulated comprehensive experience in epidemiology, taking part in studies on dengue virus infections in Madagascar and Reunion Island with the Global Health Institute, and more recently, working as a medical researcher in a Covid-19 study at the Center of Emerging Viral Disease at the University Hospital of Geneva. His experience also involves Global Health and Humanitarian-focused work, where he acted as teacher and focal point for basic medical training at the Kakuma Refugee Camp in Kenya, with the University of Geneva, InZone and the United Nations High Commissioner for Refugees. In December 2020, he joined the PHD program at the Epidemiology, Biostatistics and Prevention Institute, under the supervision of Prof. Dr. Patricia Schlagenhauf, whose study aims to track infection in travellers.
+My name is Thibault and I am a medical professional with a passion for public health and humanitarian medicine.
+In December 2020, I joined the PHD program at the Epidemiology, Biostatistics and Prevention Institute, under the supervision of Prof. Dr. Patricia Schlagenhauf. My research focuses on respiratory infections, with a particular interest in Long Covid and tracking infections using mobile applications.
+
+On my website, you’ll find my CV, publications, and talks. If you have any questions or just want to say hello, please don’t hesitate to reach out. I love connecting with new people and am always happy to chat. Thank you for visiting and enjoy your time here!
