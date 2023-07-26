@@ -9,7 +9,7 @@ about:
   links:
     - text: LinkedIn
       icon: linkedin
-      url: "www.linkedin.com/in/thibault-lovey-098b3430"
+      url: "https://www.linkedin.com/in/thibault-lovey-098b3430"
     - text: Twitter
       icon: twitter
       url: "https://twitter.com/thibaultlovey"
