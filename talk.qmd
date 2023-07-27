@@ -1,6 +1,10 @@
 ---
-title: "Talk"
+title: "Talks"
 listing:
+  type: table
   contents: posts
+  fields: [image, title, date]
+  image-height: 150px
+  date-format: short
   sort: "date desc"
 ---
