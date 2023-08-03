@@ -5,8 +5,10 @@ project:
 website:
   reader-mode: false
   title: |
-      <span class="faux-block">{{< fa earth  >}}&nbsp; thibaultlovey<br> </span>
-  twitter-card: true
+      <span class="faux-block">{{< fa earth  >}}&nbsp; thibaultlovey.com<br> </span>
+  twitter-card:
+   creator: "@thibaultlovey"
+  site-url: https://thibaultlovey.com
   open-graph: true
   navbar:
     right:
