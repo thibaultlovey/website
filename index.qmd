@@ -1,5 +1,7 @@
 ---
-format: html
+format:
+ html:
+  page-layout: full
 title: "Thibault Lovey <br> <span style='font-size: 0.7em;'>MD, PhD</span>"
 image: IDphoto.jpg
 about:
