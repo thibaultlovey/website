@@ -5,6 +5,9 @@ description: |
 date: 2022-04-19
 author: 
   - name: Thibault Lovey
+categories:
+  - Presentation
+  - Lunch Seminar
 image: lunchseminar_2.png
 draft: false
 ---

@@ -3,6 +3,9 @@ title: "Cardiorespiratory Test Performance in Young Adults post SARS-CoV-2 Infec
 description: |
   Poster presentation
 date: 2023-05-24
+categories:
+  - Poster
+  - Conference
 author: 
   - name: Thibault Lovey
 image: poster_covid.png

@@ -72,9 +72,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-image','listing-categories','listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -140,12 +140,13 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Conference">Conference <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Lunch Seminar">Lunch Seminar <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Poster">Poster <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Presentation">Presentation <span class="quarto-category-count">(4)</span></div></div></div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -168,124 +169,198 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          Title
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Poster,Conference" data-listing-date-sort="1684879200000" data-listing-file-modified-sort="1691066831833" data-listing-reading-time-sort="2.415">
+<a href="./posts/cistm18_sr.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/poster_sr.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Travel-related respiratory symptoms and infections in travellers 2000-2022: a systematic review and meta- analysis
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Poster'); return false;">
+Poster
 </div>
-
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-</th>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-date-sort="1684879200000" data-listing-file-modified-sort="1691062361388" data-listing-reading-time-sort="2.415" data-listing-title-sort="Travel-related respiratory symptoms and infections in travellers 2000-2022: a systematic review and meta- analysis" data-listing-filename-sort="cistm18_sr.qmd">
-<td class="listing-image">
-<img src="./posts/poster_sr.png" style="height: 150px;">
-</td>
-<td class="listing-title">
-<a href="./posts/cistm18_sr.html" class="title">Travel-related respiratory symptoms and infections in travellers 2000-2022: a systematic review and meta- analysis</a>
-</td>
-<td class="listing-date">
+<div class="listing-category" onclick="window.quartoListingCategory('Conference'); return false;">
+Conference
+</div>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
 5/24/23
-</td>
-</tr>
-<tr data-index="1" data-listing-date-sort="1684879200000" data-listing-file-modified-sort="1691062342870" data-listing-reading-time-sort="1.825" data-listing-title-sort="Cardiorespiratory Test Performance in Young Adults post SARS-CoV-2 Infection Compared to Negative Controls" data-listing-filename-sort="cistm18_covid.qmd">
-<td class="listing-image">
-<img src="./posts/poster_covid.png" style="height: 150px;">
-</td>
-<td class="listing-title">
-<a href="./posts/cistm18_covid.html" class="title">Cardiorespiratory Test Performance in Young Adults post SARS-CoV-2 Infection Compared to Negative Controls</a>
-</td>
-<td class="listing-date">
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Poster,Conference" data-listing-date-sort="1684879200000" data-listing-file-modified-sort="1691066827267" data-listing-reading-time-sort="1.825">
+<a href="./posts/cistm18_covid.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/poster_covid.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Cardiorespiratory Test Performance in Young Adults post SARS-CoV-2 Infection Compared to Negative Controls
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Poster'); return false;">
+Poster
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Conference'); return false;">
+Conference
+</div>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
 5/24/23
-</td>
-</tr>
-<tr data-index="2" data-listing-date-sort="1684706400000" data-listing-file-modified-sort="1691062089810" data-listing-reading-time-sort="2.52" data-listing-title-sort="A New Frontier- Infection Tracking in Travellers (ITIT): The First 500 participants" data-listing-filename-sort="cistm18_itit.qmd">
-<td class="listing-image">
-<img src="./posts/cistm18_itit.png" style="height: 150px;">
-</td>
-<td class="listing-title">
-<a href="./posts/cistm18_itit.html" class="title">A New Frontier- Infection Tracking in Travellers (ITIT): The First 500 participants</a>
-</td>
-<td class="listing-date">
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Poster,Conference" data-listing-date-sort="1684706400000" data-listing-file-modified-sort="1691066822635" data-listing-reading-time-sort="2.52">
+<a href="./posts/cistm18_itit.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/cistm18_itit.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A New Frontier- Infection Tracking in Travellers (ITIT): The First 500 participants
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Poster'); return false;">
+Poster
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Conference'); return false;">
+Conference
+</div>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
 5/22/23
-</td>
-</tr>
-<tr data-index="3" data-listing-date-sort="1678921200000" data-listing-file-modified-sort="1691062467088" data-listing-reading-time-sort="0.525" data-listing-title-sort="Travel-related respiratory symptoms and infections in travellers (2000-2022)" data-listing-filename-sort="bucharest.qmd">
-<td class="listing-image">
-<img src="./posts/bucharest_2.png" style="height: 150px;">
-</td>
-<td class="listing-title">
-<a href="./posts/bucharest.html" class="title">Travel-related respiratory symptoms and infections in travellers (2000-2022)</a>
-</td>
-<td class="listing-date">
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="Presentation,Conference" data-listing-date-sort="1678921200000" data-listing-file-modified-sort="1691066774050" data-listing-reading-time-sort="0.525">
+<a href="./posts/bucharest.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/bucharest_2.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Travel-related respiratory symptoms and infections in travellers (2000-2022)
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Presentation'); return false;">
+Presentation
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Conference'); return false;">
+Conference
+</div>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
 3/16/23
-</td>
-</tr>
-<tr data-index="4" data-listing-date-sort="1668034800000" data-listing-file-modified-sort="1691062716781" data-listing-reading-time-sort="0.55" data-listing-title-sort="Olfactory dysfunction after SARS-CoV-2-Infection?" data-listing-filename-sort="military.qmd">
-<td class="listing-image">
-<img src="./posts/military_conference.png" style="height: 150px;">
-</td>
-<td class="listing-title">
-<a href="./posts/military.html" class="title">Olfactory dysfunction after SARS-CoV-2-Infection?</a>
-</td>
-<td class="listing-date">
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="Presentation,Conference" data-listing-date-sort="1668034800000" data-listing-file-modified-sort="1691066812499" data-listing-reading-time-sort="0.55">
+<a href="./posts/military.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/military_conference.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Olfactory dysfunction after SARS-CoV-2-Infection?
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Presentation'); return false;">
+Presentation
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Conference'); return false;">
+Conference
+</div>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
 11/10/22
-</td>
-</tr>
-<tr data-index="5" data-listing-date-sort="1665007200000" data-listing-file-modified-sort="1691062426472" data-listing-reading-time-sort="0.475" data-listing-title-sort="Climate change and malaria transmission" data-listing-filename-sort="lausanne.qmd">
-<td class="listing-image">
-<img src="./posts/lausanne_2.png" style="height: 150px;">
-</td>
-<td class="listing-title">
-<a href="./posts/lausanne.html" class="title">Climate change and malaria transmission</a>
-</td>
-<td class="listing-date">
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="Presentation,Conference" data-listing-date-sort="1665007200000" data-listing-file-modified-sort="1691066793017" data-listing-reading-time-sort="0.475">
+<a href="./posts/lausanne.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/lausanne_2.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Climate change and malaria transmission
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Presentation'); return false;">
+Presentation
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Conference'); return false;">
+Conference
+</div>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
 10/6/22
-</td>
-</tr>
-<tr data-index="6" data-listing-date-sort="1650319200000" data-listing-file-modified-sort="1690470390599" data-listing-reading-time-sort="0.755" data-listing-title-sort="Illness tracking in SARS-CoV-2 tested persons using a smartphone app: a non-interventional, prospective, cohort study" data-listing-filename-sort="lunch_seminar.qmd">
-<td class="listing-image">
-<img src="./posts/lunchseminar_2.png" style="height: 150px;">
-</td>
-<td class="listing-title">
-<a href="./posts/lunch_seminar.html" class="title">Illness tracking in SARS-CoV-2 tested persons using a smartphone app: a non-interventional, prospective, cohort study</a>
-</td>
-<td class="listing-date">
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="Presentation,Lunch Seminar" data-listing-date-sort="1650319200000" data-listing-file-modified-sort="1691066909001" data-listing-reading-time-sort="0.755">
+<a href="./posts/lunch_seminar.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/lunchseminar_2.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Illness tracking in SARS-CoV-2 tested persons using a smartphone app: a non-interventional, prospective, cohort study
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Presentation'); return false;">
+Presentation
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Lunch Seminar'); return false;">
+Lunch Seminar
+</div>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
 4/19/22
-</td>
-</tr>
-</tbody>
-
-</table>
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>

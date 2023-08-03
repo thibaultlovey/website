@@ -3,6 +3,9 @@ title: "Olfactory dysfunction after SARS-CoV-2-Infection?"
 description: |
   Overview of the effects of SARS-CoV-2 infection on the olfactory system
 date: 2022-11-10
+categories:
+  - Presentation
+  - Conference
 author: 
   - name: Thibault Lovey
 image: military_conference.png

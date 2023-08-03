@@ -3,6 +3,9 @@ title: "A New Frontier- Infection Tracking in Travellers (ITIT): The First 500 p
 description: |
   Poster presentation
 date: 2023-05-22
+categories:
+  - Poster
+  - Conference
 author: 
   - name: Thibault Lovey
 image: cistm18_itit.png

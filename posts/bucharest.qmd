@@ -3,6 +3,9 @@ title: "Travel-related respiratory symptoms and infections in travellers (2000-2
 description: |
   Overview of the respiratory infections in travellers.
 date: 2023-03-16
+categories:
+  - Presentation
+  - Conference
 author: 
   - name: Thibault Lovey
 image: bucharest_2.png

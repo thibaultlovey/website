@@ -3,6 +3,9 @@ title: "Travel-related respiratory symptoms and infections in travellers 2000-20
 description: |
   Poster presentation
 date: 2023-05-24
+categories:
+  - Poster
+  - Conference
 author: 
   - name: Thibault Lovey
 image: poster_sr.png

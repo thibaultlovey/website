@@ -3,6 +3,9 @@ title: "Climate change and malaria transmission"
 description: |
   The impact of global warming on malaria transmission 
 date: 2022-10-06
+categories:
+  - Presentation
+  - Conference
 author: 
   - name: Thibault Lovey
 image: lausanne_2.png
