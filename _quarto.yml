@@ -19,22 +19,23 @@ website:
       - href: cv.qmd
         text: CV
   page-footer:
-    left:
-      - icon: envelope
-        text: "Let's connect! "
-        href: "https://github.com/thibaultlovey"
-      - icon: twitter 
-        href: "https://twitter.com/thibaultlovey" 
-      - icon: linkedin 
-        href: "https://www.linkedin.com/in/thibault-lovey-098b3430"
-      - icon: envelope 
-        href: "mailto:thibault.lovey@uzh.ch"
+    # left:
+    #   - icon: envelope
+    #     text: "Let's connect! "
+    #     href: "https://github.com/thibaultlovey"
+    #   - icon: twitter 
+    #     href: "https://twitter.com/thibaultlovey" 
+    #   - icon: linkedin 
+    #     href: "https://www.linkedin.com/in/thibault-lovey-098b3430"
+    #   - icon: envelope 
+    #     href: "mailto:thibault.lovey@uzh.ch"
     center: |
+      <span class="faux-block"><a href="https://twitter.com/thibaultlovey"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/thibault-lovey-098b3430"><i class="fab fa-linkedin"></i></a>&nbsp;&nbsp;&nbsp;<a href="mailto:thibault.lovey@uzh.ch"><i class="far fa-envelope"></i></a><br></span>
       <span class="faux-block">{{< fa brands creative-commons >}} 2023 Thibault Lovey<br> </span>
-      <span class="faux-block" style="margin-top: 10px;">All content licensed under<br>{{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-sa >}} Creative Commons CC BY-SA 4.0</span>      
-    right: 
-     - text: "View code on Github"
-       href: "https://github.com/thibaultlovey/website"
+      <span class="faux-block" style="margin-top: 10px;">{{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-sa >}} Creative Commons CC BY-SA 4.0</span>      
+    # right: 
+    #  - text: "View code on Github"
+    #    href: "https://github.com/thibaultlovey/website"
 format:
   html:
     #page-layout: full
