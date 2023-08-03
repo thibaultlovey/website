@@ -28,4 +28,10 @@ comments: false
 My name is Thibault and I am a medical professional with a passion for public health and humanitarian medicine.
 In December 2020, I joined the PHD program at the Epidemiology, Biostatistics and Prevention Institute, under the supervision of Prof. Dr. Patricia Schlagenhauf. My research focuses on respiratory infections, with a particular interest in Long Covid and tracking infections using mobile applications.
 
-On my website, you’ll find my CV, publications, and talks. If you have any questions or just want to say hello, please don’t hesitate to reach out. I love connecting with new people and am always happy to chat. Thank you for visiting and enjoy your time here!
+On my website, you’ll find my:
+
+- [Curriculum Vitae](cv.qmd)
+- [Publications](about.qmd)
+- [Talks](talk.qmd)
+
+If you have any questions or just want to say hello, please don’t hesitate to reach out. I love connecting with new people and am always happy to chat. Thank you for visiting and enjoy your time here!

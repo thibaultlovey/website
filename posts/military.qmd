@@ -8,16 +8,14 @@ author:
 image: military_conference.png
 draft: false
 ---
-## Overview
-
-This presentation provides a comprehensive overview of the effects of SARS-CoV-2 infection on the olfactory system, with a particular focus on healthy young adults. It explores the prevalence, mechanisms, and potential long-term consequences of olfactory dysfunction following SARS-CoV-2 infection.
-
 ## Event details
 
 {{< fa regular calendar-check >}}&nbsp;&nbsp; Fachdienstkurs Militär und Katastrophenmedizin (FDK MKM 2022)<br>
 {{< fa regular calendar-alt >}}&nbsp;&nbsp; November 10th, 2022<br>
 {{< fa regular clock >}}&nbsp;&nbsp; 10:00-11:30 CET<br>
 {{< fa regular map-marker-alt >}}&nbsp;&nbsp; Kaserne, Gebäude Q1, 3609 Thun, Switzerland
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2393.287239401886!2d7.616511275177083!3d46.75836901996705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478fb3f1593d5351%3A0xe56bcbcbc7856d99!2sMZR%20Thun%20-%20Milit%C3%A4rspital%20Thun!5e0!3m2!1sen!2snl!4v1691062511016!5m2!1sen!2snl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ## Slides
 
@@ -28,15 +26,6 @@ This presentation provides a comprehensive overview of the effects of SARS-CoV-2
     <i class="fa-solid fa-file-arrow-down"></i> Download Slides
   </a>
 </p>
+## Overview
 
-
-
-<!-- Keyboard shortcuts for slideshow (once you've clicked inside it): -->
-
-<!-- - Use <kbd>←</kbd> and <kbd>→</kbd> to navigate through the slides. -->
-
-<!-- - Use <kbd>o</kbd> for an overview of all slides. -->
-
-<!-- - Use <kbd>h</kbd> to see a list of other shortcuts  -->
-
-<!--   - <kbd>f</kbd> to toggle full screen not working, but the rest are fine. -->
+This presentation provides a comprehensive overview of the effects of SARS-CoV-2 infection on the olfactory system, with a particular focus on healthy young adults. It explores the prevalence, mechanisms, and potential long-term consequences of olfactory dysfunction following SARS-CoV-2 infection.

@@ -2,7 +2,12 @@
   {
     "listing": "/talk.html",
     "items": [
+      "/posts/cistm18_sr.html",
+      "/posts/cistm18_covid.html",
+      "/posts/cistm18_itit.html",
+      "/posts/bucharest.html",
       "/posts/military.html",
+      "/posts/lausanne.html",
       "/posts/lunch_seminar.html"
     ]
   }

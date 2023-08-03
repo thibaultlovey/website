@@ -172,7 +172,7 @@ O’Keeffe, P., & **Lovey, T.** (2023). Meaningful higher education in Kakuma re
 ::::
 <hr>
 
-**Lovey, T.**, Hasler, R., Gautret, P., & Schlagenhauf, P. (2023). Travel-related respiratory symptoms and infections in travellers (2000–22): A systematic review and meta-analysis. Journal of Travel Medicine, taad081. https://doi.org/10.1093/jtm/taad081
+**Lovey, T.**, Hasler, R., Gautret, P., & Schlagenhauf, P. (2023). Travel-related respiratory symptoms and infections in travellers (2000–22): A systematic review and meta-analysis. Journal of Travel Medicine, taad081. 
 <br>doi:[10.1093/jtm/taad081](https://doi.org/10.1093/jtm/taad081)&nbsp;&nbsp;preprint: [10.2139/ssrn.4381176](https://doi.org/10.2139/ssrn.4381176)
 &nbsp;&nbsp;[{{< fa download >}} PDF](papers/taad081.pdf)
 
