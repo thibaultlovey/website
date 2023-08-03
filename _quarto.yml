@@ -37,6 +37,7 @@ website:
        href: "https://github.com/thibaultlovey/website"
 format:
   html:
+    page-layout: full
     theme:
      light: custom_flatly.scss
     toc: false
