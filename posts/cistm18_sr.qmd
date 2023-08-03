@@ -8,7 +8,7 @@ categories:
   - Conference
 author: 
   - name: Thibault Lovey
-image: poster_sr.png
+image: timeline_poster.png
 draft: false
 ---
 ## Event details

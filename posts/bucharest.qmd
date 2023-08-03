@@ -8,7 +8,7 @@ categories:
   - Conference
 author: 
   - name: Thibault Lovey
-image: bucharest_2.png
+image: prisma.png
 draft: false
 ---
 ## Event details

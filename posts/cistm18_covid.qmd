@@ -8,7 +8,7 @@ categories:
   - Conference
 author: 
   - name: Thibault Lovey
-image: poster_covid.png
+image: locomo.jpeg
 draft: false
 ---
 ## Event details

@@ -1,10 +1,10 @@
 ---
 format: html
 title: "Thibault Lovey <br> <span style='font-size: 0.7em;'>MD</span>"
-image: IDphoto.jpg
+image: portrait_1_1.jpeg
 about:
   template: trestles
-  image-shape: rectangle
+  image-shape: round
   image-width: 13em
   links:
     - text: LinkedIn

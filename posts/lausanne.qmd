@@ -8,7 +8,7 @@ categories:
   - Conference
 author: 
   - name: Thibault Lovey
-image: lausanne_2.png
+image: lausanne_mosquitos.png
 draft: false
 ---
 ## Event details

@@ -8,7 +8,7 @@ categories:
   - Conference
 author: 
   - name: Thibault Lovey
-image: cistm18_itit.png
+image: map.png
 draft: false
 ---
 ## Event details

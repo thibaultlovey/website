@@ -8,7 +8,7 @@ categories:
   - Conference
 author: 
   - name: Thibault Lovey
-image: military_conference.png
+image: nose_military.jpeg
 draft: false
 ---
 ## Event details

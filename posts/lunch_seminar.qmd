@@ -8,7 +8,7 @@ author:
 categories:
   - Presentation
   - Lunch Seminar
-image: lunchseminar_2.png
+image: ititp.jpg
 draft: false
 ---
 ## Overview
