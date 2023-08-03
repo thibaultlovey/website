@@ -41,8 +41,9 @@ website:
 format:
   html:
     #page-layout: full
-    theme:
-     light: custom_flatly.scss
+    theme: custom_flatly.scss
+    fontsize: 11pt
+    fontcolor: "#565656"
     toc: false
 
 
