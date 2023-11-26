@@ -1,0 +1,11 @@
+---
+title: "Talks"
+listing:
+  type: grid
+  contents: posts
+  fields: [image, categories, title, date]
+  #image-height: 150px
+  date-format: short
+  sort: "date desc"
+  categories: true
+---
