@@ -22,6 +22,8 @@ This presentation provides a comprehensive overview of the effects of SARS-CoV-2
 {{< fa clock >}}&nbsp;&nbsp;10:00-12:00 CET<br>
 {{< fa map-marker-alt >}}&nbsp;&nbsp;KOL-F-123
 
+<div style="overflow:hidden;max-width:100%;width:400px;height:300px;"><div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=UZH+Main&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="code-for-google-map" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="get-map-data">premium bootstrap themes</a><style>#canvas-for-googlemap img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div>
+
 ## Slides
 
 <iframe class="slide-deck ar16x9" src="defensetest.html" title="The Epidemiology of Respiratory Infections in Mobile Populations" width="125%" height="550"></iframe>
