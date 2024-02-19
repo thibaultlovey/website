@@ -92,7 +92,21 @@ Ferretti, A., Hedrich, N., **Lovey, T.**, Vayena, E., & Schlagenhauf, P. (2021).
 ::::
 <hr>
 
-**Lovey, T.**, Bielecki, M., Gültekin, N., Stettbacher, A., Muggli, F., Stanga, Z., Farnham, A., Deuel, J., & Schlagenhauf, P. (2022). Illness tracking in SARS-CoV-2 tested persons using a smartphone app: A non-interventional, prospective, cohort study. New Microbes and New Infections, 46, 100967. <br>doi:[10.1016/j.nmni.2022.100967](https://doi.org/10.1016/j.nmni.2022.100967)&nbsp;&nbsp;preprint: [10.2139/ssrn.4003916](https://doi.org/10.2139/ssrn.4003916)
+Buchs, A., Conde, A., Frank, A., Gottet, C., Hedrich, N., **Lovey, T.**, Shindleman, H., & Schlagenhauf, P. (2022). The threat of dengue in Europe. *New Microbes and New Infections*, 49–50, 101061.
+<br>doi:[10.1016/j.nmni.2022.101061](https://doi.org/10.1016/j.nmni.2022.101061)
+&nbsp;&nbsp;[{{< fa download >}} PDF](papers/1-s2.0-S2052297522001135-main.pdf)
+
+:::: {.columns}
+::: {.column width="10%"}
+<div data-badge-type="donut" class="altmetric-embed" data-badge-popover="right" data-doi="10.1016/j.nmni.2022.101061"></div>
+::: 
+::: {.column width="10%"}
+<span class="__dimensions_badge_embed__" data-doi="10.1016/j.nmni.2022.101061" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+:::
+::::
+<hr>
+
+**Lovey, T.**, Bielecki, M., Gültekin, N., Stettbacher, A., Muggli, F., Stanga, Z., Farnham, A., Deuel, J., & Schlagenhauf, P. (2022). Illness tracking in SARS-CoV-2 tested persons using a smartphone app: A non-interventional, prospective, cohort study. *New Microbes and New Infections*, 46, 100967. <br>doi:[10.1016/j.nmni.2022.100967](https://doi.org/10.1016/j.nmni.2022.100967)&nbsp;&nbsp;preprint: [10.2139/ssrn.4003916](https://doi.org/10.2139/ssrn.4003916)
 &nbsp;&nbsp;[{{< fa download >}} PDF](papers/1-s2.0-S2052297522000191-main.pdf)
 
 :::: {.columns}
@@ -108,7 +122,7 @@ Ferretti, A., Hedrich, N., **Lovey, T.**, Vayena, E., & Schlagenhauf, P. (2021).
 ::::
 <hr>
 
-**Lovey, T.**, O’Keeffe, P., & Petignat, I. (2021). Basic Medical Training for Refugees via Collaborative Blended Learning: Quasi-Experimental Design. Journal of Medical Internet Research, 23(3), e22345. <br>doi:[10.2196/22345](https://doi.org/10.2196/22345)
+**Lovey, T.**, O’Keeffe, P., & Petignat, I. (2021). Basic Medical Training for Refugees via Collaborative Blended Learning: Quasi-Experimental Design. *Journal of Medical Internet Research*, 23(3), e22345. <br>doi:[10.2196/22345](https://doi.org/10.2196/22345)
 &nbsp;&nbsp;[{{< fa download >}} PDF](papers/PDF.pdf)
 
 :::: {.columns}
@@ -124,21 +138,40 @@ Ferretti, A., Hedrich, N., **Lovey, T.**, Vayena, E., & Schlagenhauf, P. (2021).
 ::::
 <hr>
 
-Buchs, A., Conde, A., Frank, A., Gottet, C., Hedrich, N., **Lovey, T.**, Shindleman, H., & Schlagenhauf, P. (2022). The threat of dengue in Europe. New Microbes and New Infections, 49–50, 101061.
-<br>doi:[10.1016/j.nmni.2022.101061](https://doi.org/10.1016/j.nmni.2022.101061)
-&nbsp;&nbsp;[{{< fa download >}} PDF](papers/1-s2.0-S2052297522001135-main.pdf)
+Brem, J., Elankeswaran, B., Erne, D., Hedrich, N., **Lovey, T.**, Marzetta, V., Salvado, L.T., Züger, C., & Schlagenhauf, P. (2024). Dengue “homegrown” in Europe (2022 to 2023). *New Microbes and New Infections*, 56, 101205.
+<br>doi:[10.1016/j.nmni.2023.101205](https://doi.org/10.1016/j.nmni.2023.101205)
+&nbsp;&nbsp;[{{< fa download >}} PDF](papers/101205.pdf)
 
 :::: {.columns}
 ::: {.column width="10%"}
-<div data-badge-type="donut" class="altmetric-embed" data-badge-popover="right" data-doi="10.1016/j.nmni.2022.101061"></div>
-::: 
+<div data-badge-type="donut" class="altmetric-embed" data-badge-popover="right" data-doi="10.1016/j.nmni.2023.101205"></div>
+:::
 ::: {.column width="10%"}
-<span class="__dimensions_badge_embed__" data-doi="10.1016/j.nmni.2022.101061" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+<span class="__dimensions_badge_embed__" data-doi="10.1016/j.nmni.2023.101205" data-style="small_circle"></span>
+    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+:::
+::: {.column width="80%"}
+:::
+::::
+<hr>
+Al-Tawfiq, J.A., Hedrich, N., **Lovey, T.**, Gautret, P., & Schlagenhauf, P. (2023). Infectious disease risks at the Rugby World Cup 2023 in France – Beware of Aedes and co! *New Microbes and New Infections*, 54, 101178
+<br>doi:[10.1016/j.nmni.2023.101178](https://doi.org/10.1016/j.nmni.2023.101178)
+&nbsp;&nbsp;[{{< fa download >}} PDF](papers/101178.pdf)
+
+:::: {.columns}
+::: {.column width="10%"}
+<div data-badge-type="donut" class="altmetric-embed" data-badge-popover="right" data-doi="10.1016/j.nmni.2023.101178"></div>
+:::
+::: {.column width="10%"}
+<span class="__dimensions_badge_embed__" data-doi="10.1016/j.nmni.2023.101178" data-style="small_circle"></span>
+    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+:::
+::: {.column width="80%"}
 :::
 ::::
 <hr>
 
-Hedrich, N., **Lovey, T.**, Kuenzli, E., Epéron, G., Blanke, U., & Schlagenhauf, P. (2023). Infection tracking in travellers using a mobile app (ITIT): The pilot study. Travel Medicine and Infectious Disease, 52, 102526. 
+Hedrich, N., **Lovey, T.**, Kuenzli, E., Epéron, G., Blanke, U., & Schlagenhauf, P. (2023). Infection tracking in travellers using a mobile app (ITIT): The pilot study. *Travel Medicine and Infectious Disease*, 52, 102526. 
 <br>doi:[10.1016/j.tmaid.2022.102526](https://doi.org/10.1016/j.tmaid.2022.102526)&nbsp;&nbsp;preprint: [10.2139/ssrn.4282958](https://doi.org/10.2139/ssrn.4282958)
 &nbsp;&nbsp;[{{< fa download >}} PDF](papers/1-s2.0-S1477893922002721-main.pdf)
 
@@ -155,24 +188,7 @@ Hedrich, N., **Lovey, T.**, Kuenzli, E., Epéron, G., Blanke, U., & Schlagenhauf
 ::::
 <hr>
 
-O’Keeffe, P., & **Lovey, T.** (2023). Meaningful higher education in Kakuma refugee camp: A case study of why context and contextualization matter. PROSPECTS, 53(1–2), 101–114.
-<br>doi:[10.1007/s11125-022-09610-z](https://doi.org/10.1007/s11125-022-09610-z)
-&nbsp;&nbsp;[{{< fa download >}} PDF](papers/s11125-022-09610-z.pdf)
-
-:::: {.columns}
-::: {.column width="10%"}
-<div data-badge-type="donut" class="altmetric-embed" data-badge-popover="right" data-doi="10.1007/s11125-022-09610-z"></div>
-:::
-::: {.column width="10%"}
-<span class="__dimensions_badge_embed__" data-doi="10.1007/s11125-022-09610-z" data-style="small_circle"></span>
-    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-:::
-::: {.column width="80%"}
-:::
-::::
-<hr>
-
-**Lovey, T.**, Hasler, R., Gautret, P., & Schlagenhauf, P. (2023). Travel-related respiratory symptoms and infections in travellers (2000–22): A systematic review and meta-analysis. Journal of Travel Medicine, taad081. 
+**Lovey, T.**, Hasler, R., Gautret, P., & Schlagenhauf, P. (2023). Travel-related respiratory symptoms and infections in travellers (2000–22): A systematic review and meta-analysis. *Journal of Travel Medicine*, taad081. 
 <br>doi:[10.1093/jtm/taad081](https://doi.org/10.1093/jtm/taad081)&nbsp;&nbsp;preprint: [10.2139/ssrn.4381176](https://doi.org/10.2139/ssrn.4381176)
 &nbsp;&nbsp;[{{< fa download >}} PDF](papers/taad081.pdf)
 
@@ -189,7 +205,24 @@ O’Keeffe, P., & **Lovey, T.** (2023). Meaningful higher education in Kakuma re
 ::::
 <hr>
 
-**Lovey, T.**, & Schlagenhauf, P. (2023). Augmentation des températures et menace du paludisme en Europe: Un retour indésirable? Revue Médicale Suisse, 19(825), 849–852.
+O’Keeffe, P., & **Lovey, T.** (2023). Meaningful higher education in Kakuma refugee camp: A case study of why context and contextualization matter. *PROSPECTS*, 53(1–2), 101–114.
+<br>doi:[10.1007/s11125-022-09610-z](https://doi.org/10.1007/s11125-022-09610-z)
+&nbsp;&nbsp;[{{< fa download >}} PDF](papers/s11125-022-09610-z.pdf)
+
+:::: {.columns}
+::: {.column width="10%"}
+<div data-badge-type="donut" class="altmetric-embed" data-badge-popover="right" data-doi="10.1007/s11125-022-09610-z"></div>
+:::
+::: {.column width="10%"}
+<span class="__dimensions_badge_embed__" data-doi="10.1007/s11125-022-09610-z" data-style="small_circle"></span>
+    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+:::
+::: {.column width="80%"}
+:::
+::::
+<hr>
+
+**Lovey, T.**, & Schlagenhauf, P. (2023). Augmentation des températures et menace du paludisme en Europe: Un retour indésirable? *Revue Médicale Suisse*, 19(825), 849–852.
 <br>doi:[10.53738/REVMED.2023.19.825.849](https://doi.org/10.53738/REVMED.2023.19.825.849)
 &nbsp;&nbsp;[{{< fa download >}} PDF](papers/849-52_44377.pdf)
 
@@ -205,5 +238,23 @@ O’Keeffe, P., & **Lovey, T.** (2023). Meaningful higher education in Kakuma re
 :::
 ::::
 <hr>
+
+**Lovey, T.**, Hedrich, N., Grobusch, M. P., Bernhard, J., Schlagenhauf, P., For the ITIT Global Network (2023). Surveillance of Global, Travel-Related Illness Using a Novel App: A Multivariable, Cross-Sectional, Digital Health Study. *SSRN*
+<br>doi:[10.2139/ssrn.4603329](https://dx.doi.org/10.2139/ssrn.4603329)&nbsp;&nbsp;preprint: [10.2139/ssrn.4603329](https://dx.doi.org/10.2139/ssrn.4603329)
+&nbsp;&nbsp;[{{< fa download >}} PDF](papers/SSRN-id4603329-4.pdf)
+
+:::: {.columns}
+::: {.column width="10%"}
+<div data-badge-type="donut" class="altmetric-embed" data-badge-popover="right" data-doi="10.2139/ssrn.4603329"></div>
+:::
+::: {.column width="10%"}
+<span class="__dimensions_badge_embed__" data-doi="10.2139/ssrn.4603329" data-style="small_circle"></span>
+    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+:::
+::: {.column width="80%"}
+:::
+::::
+<hr>
+
 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>

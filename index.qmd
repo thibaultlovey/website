@@ -1,6 +1,6 @@
 ---
 format: html
-title: "Thibault Lovey <br> <span style='font-size: 0.7em;'>MD</span>"
+title: "Thibault Lovey <br> <span style='font-size: 0.7em;'>MD, PhD</span>"
 image: portrait_1_1.jpeg
 about:
   template: trestles
@@ -25,13 +25,13 @@ comments: false
 ---
 ## Hi ! Welcome to my website!
 
-My name is Thibault and I am a medical professional with a passion for public health and humanitarian medicine.
-In December 2020, I joined the PHD program at the Epidemiology, Biostatistics and Prevention Institute, under the supervision of Prof. Dr. Patricia Schlagenhauf. My research focuses on respiratory infections, with a particular interest in Long Covid and tracking infections using mobile applications.
+I'm Thibault, a medical professional passionate about public health and humanitarian medicine. My research focuses on respiratory infections, with a particular interest in Long Covid and tracking infections using mobile applications.
 
 On my website, you’ll find my:
 
 - [Curriculum Vitae](cv.qmd)
 - [Publications](about.qmd)
-- [Talks](talk.qmd)
+- [Conferences and Seminars](talk.qmd)
+- [Teaching Experience](teaching.qmd)
 
-If you have any questions or just want to say hello, please don’t hesitate to reach out. I love connecting with new people and am always happy to chat. Thank you for visiting and enjoy your time here!
+I'm always open to connecting, discussing ideas, or answering any questions you might have. Feel free to reach out if you want to chat or learn more. Thank you for stopping by!

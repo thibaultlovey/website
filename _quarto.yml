@@ -17,9 +17,11 @@ website:
       - href: about.qmd
         text: Publications
       - href: talk.qmd
-        text: Talks
+        text: Conferences and Seminars
+      - href: teaching.qmd
+        text: Teaching Experience
       - href: cv.qmd
-        text: CV
+        text: Curriculum Vitae (CV)
   page-footer:
     # left:
     #   - icon: envelope

@@ -1,0 +1,45 @@
+---
+title: "The Epidemiology of Respiratory Infections in Mobile Populations"
+description: |
+  Overview of the impact of RTIs on mobile populations
+date: 2024-01-08
+author: 
+  - name: Thibault Lovey
+categories:
+  - Presentation
+  - Defense
+image: defense.jpeg
+draft: false
+---
+## Overview
+
+This presentation provides a comprehensive overview of the effects of SARS-CoV-2 infection on the olfactory system, with a particular focus on healthy young adults. It explores the prevalence, mechanisms, and potential long-term consequences of olfactory dysfunction following SARS-CoV-2 infection.
+
+## Event details
+
+{{< fa calendar-check >}}&nbsp;&nbsp;Lunch Seminar (EBPI), University of Zürich (UZH)<br>
+{{< fa calendar-alt >}}&nbsp;&nbsp;January 8th, 2024<br>
+{{< fa clock >}}&nbsp;&nbsp;10:00-12:00 CET<br>
+{{< fa map-marker-alt >}}&nbsp;&nbsp;KOL-F-123
+
+## Slides
+
+<iframe class="slide-deck ar16x9" src="defensetest.html" title="The Epidemiology of Respiratory Infections in Mobile Populations" width="125%" height="550"></iframe>
+
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cv-download" href="defensetest.html" target="_blank">
+    {{< fa file-arrow-down >}} Download Slides
+  </a>
+</p>
+
+
+
+<!-- Keyboard shortcuts for slideshow (once you've clicked inside it): -->
+
+<!-- - Use <kbd>←</kbd> and <kbd>→</kbd> to navigate through the slides. -->
+
+<!-- - Use <kbd>o</kbd> for an overview of all slides. -->
+
+<!-- - Use <kbd>h</kbd> to see a list of other shortcuts  -->
+
+<!--   - <kbd>f</kbd> to toggle full screen not working, but the rest are fine. -->

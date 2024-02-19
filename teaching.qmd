@@ -1,0 +1,79 @@
+---
+title: "Teaching Experience"
+output:
+  distill::distill_article:
+---
+```{r teaching, echo=FALSE}
+# Function to create the HTML equivalent of the \cvevent command
+create_cvevent_html <- function(position, date_range, organization, location, detail1 = NA, detail2 = NA, detail3 = NA) {
+  # Helper function to create a bullet item only if the detail is not NA
+  bullet_item <- function(detail) {
+    if (!is.na(detail) && detail != "NA") {
+      return(paste0('<li>', detail, '</li>'))
+    }
+    return("")
+  }
+  
+  # Concatenate the HTML string with conditionals handled in R
+html_string <- paste0(
+  '<div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">',
+    '<span style="font-weight: bold;">', position, '</span>',
+    '<span style="white-space: nowrap;">', location, '</span>',
+  '</div>',
+  '<div>', organization, ' | ', '<small>', date_range, '</small></div>',
+  '<ul style="list-style-type: disc; padding-left: 20px; margin-top: 5px;">',
+    bullet_item(detail1),
+    bullet_item(detail2),
+    bullet_item(detail3),
+  '</ul>'
+)
+  
+  # Return the HTML string
+  return(html_string)
+}
+
+# Usage of the function for the two positions
+cvevent_html1<-create_cvevent_html(
+    "Teaching Assistant",
+    "2021 &mdash; 2023",
+    "Faculty of Medicine, University of Zürich",
+    "Zürich, Switzerland",
+    "Mantelstudium: Public Health, Changing Infections (Fall Sem.)"
+  )
+cvevent_html2<-
+  create_cvevent_html(
+    "Teaching Assistant",
+    "2021",
+    "Faculty of Mathematics and Science, University of Zürich",
+    "Zürich, Switzerland",
+    "STAT408 Statistical Methods in Epidemiology (Spring Sem.)"
+  )
+cvevent_html3<-
+  create_cvevent_html(
+    "Medical Training Instructor",
+    "2019",
+    "InZone, University of Geneva & United Nations High Commissioner for Refugees (UNHCR)",
+    "Kakuma, Kenya",
+    "Main Referee of Basic Medical Training at Kakuma Refugee Camp (Fall Sem. & Spring Sem.)"
+  )
+cvevent_html4<-
+  create_cvevent_html(
+    "Ski Instructor",
+    "2010 &mdash; 2015",
+    "Verbier Swiss Ski School",
+    "Verbier, Switzerland",
+    "Ski Instructor at Verbier Swiss Ski School (Winter season)"
+  )
+cvevent_html5<-
+  create_cvevent_html(
+    "Summer Camp Instructor",
+    "2011 & 2013",
+    "Eli Whitney & Workshop",
+    "New Haven, United States",
+    "Instructor during the Summer Camp"
+)
+
+# Output the HTML strings using knitr::asis_output()
+knitr::asis_output(paste0(cvevent_html1, cvevent_html2,cvevent_html3,cvevent_html4,cvevent_html5))
+```
+

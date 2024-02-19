@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.313">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -47,7 +47,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,18 +62,20 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
 
 <meta property="og:title" content="&nbsp; thibaultlovey.com  - Publications">
-<meta property="og:description" content="Deuel, J. W., Lauria, E., Lovey, T., Zweifel, S., Meier, M. I., Züst, R., Gültekin, N., Stettbacher, A., &amp; Schlagenhauf, P. (2022).">
-<meta property="og:site-name" content="<span class=&quot;faux-block&quot;>{{< fa earth  >}}&amp;nbsp; thibaultlovey.com<br> </span>
+<meta property="og:description" content="">
+<meta property="og:site_name" content="<span class=&quot;faux-block&quot;>{{< fa earth  >}}&amp;nbsp; thibaultlovey.com<br> </span>
 ">
 <meta name="twitter:title" content="&nbsp; thibaultlovey.com  - Publications">
-<meta name="twitter:description" content="Deuel, J. W., Lauria, E., Lovey, T., Zweifel, S., Meier, M. I., Züst, R., Gültekin, N., Stettbacher, A., &amp; Schlagenhauf, P. (2022).">
+<meta name="twitter:description" content="">
 <meta name="twitter:creator" content="@thibaultlovey">
 <meta name="twitter:card" content="summary">
 </head>
@@ -76,37 +84,43 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title"><span class="faux-block"><i class="fa-solid fa-earth" aria-label="earth"></i>&nbsp; thibaultlovey.com<br> </span></span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
- <span class="menu-text">Welcome</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Welcome</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page">
- <span class="menu-text">Publications</span></a>
+    <a class="nav-link active" href="./about.html" aria-current="page"> 
+<span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./talk.html">
- <span class="menu-text">Talks</span></a>
+    <a class="nav-link" href="./talk.html"> 
+<span class="menu-text">Conferences and Seminars</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html">
- <span class="menu-text">CV</span></a>
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching Experience</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cv.html"> 
+<span class="menu-text">Curriculum Vitae (CV)</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -133,7 +147,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <div class="cell">
 <div class="cell-output-display">
@@ -145,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
 <p><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css"></p>
 </div>
 <div class="cell-output-display">
-<p><br>Citations: 56 &nbsp;|&nbsp;&nbsp;h-index: 5 &nbsp;|&nbsp;&nbsp;i10-index: 3</p>
+<p><br>Citations: 75 &nbsp;|&nbsp;&nbsp;h-index: 5 &nbsp;|&nbsp;&nbsp;i10-index: 4</p>
 </div>
 <div class="cell-output-display">
 <div style="display: flex; justify-content: flex-start;"><a href="https://orcid.org/0000-0001-7867-7159" style="text-decoration: none; color: inherit;"><div style="display: flex; align-items: center; border: 1px solid #ddd; padding: 10px; margin-right: 10px; border-radius: 5px;"><div style="margin-right: 10px;"><svg aria-hidden="true" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:green;overflow:visible;position:relative;"><path d="M294.75 188.19h-45.92V342h47.47c67.62 0 83.12-51.34 83.12-76.91 0-41.64-26.54-76.9-84.67-76.9zM256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm-80.79 360.76h-29.84v-207.5h29.84zm-14.92-231.14a19.57 19.57 0 1 1 19.57-19.57 19.64 19.64 0 0 1-19.57 19.57zM300 369h-81V161.26h80.6c76.73 0 110.44 54.83 110.44 103.85C410 318.39 368.38 369 300 369z"></path></svg></div>ORCID</div></a><a href="https://scholar.google.com/citations?user=xN83U3oAAAAJ" style="text-decoration: none; color: inherit;"><div style="display: flex; align-items: center; border: 1px solid #ddd; padding: 10px; margin-right: 10px; border-radius: 5px;"><div style="margin-right: 10px;"><i class="ai ai-google-scholar"></i></div>Google Scholar</div></a><a href="https://www.researchgate.net/profile/Thibault-Lovey" style="text-decoration: none; color: inherit;"><div style="display:flex;align-items:center;border:1px solid #ddd;padding:10px;border-radius:5px;"><div style="margin-right:10px;"><i class="ai ai-researchgate"></i></div>ResearchGate</div></a></div>
@@ -184,7 +200,19 @@ Source: Google Scholar
 </div>
 </div>
 <hr>
-<p><strong>Lovey, T.</strong>, Bielecki, M., Gültekin, N., Stettbacher, A., Muggli, F., Stanga, Z., Farnham, A., Deuel, J., &amp; Schlagenhauf, P. (2022). Illness tracking in SARS-CoV-2 tested persons using a smartphone app: A non-interventional, prospective, cohort study. New Microbes and New Infections, 46, 100967. <br>doi:<a href="https://doi.org/10.1016/j.nmni.2022.100967">10.1016/j.nmni.2022.100967</a>&nbsp;&nbsp;preprint: <a href="https://doi.org/10.2139/ssrn.4003916">10.2139/ssrn.4003916</a> &nbsp;&nbsp;<a href="papers/1-s2.0-S2052297522000191-main.pdf"><i class="fa-solid fa-download" aria-label="download"></i> PDF</a></p>
+<p>Buchs, A., Conde, A., Frank, A., Gottet, C., Hedrich, N., <strong>Lovey, T.</strong>, Shindleman, H., &amp; Schlagenhauf, P. (2022). The threat of dengue in Europe. <em>New Microbes and New Infections</em>, 49–50, 101061. <br>doi:<a href="https://doi.org/10.1016/j.nmni.2022.101061">10.1016/j.nmni.2022.101061</a> &nbsp;&nbsp;<a href="papers/1-s2.0-S2052297522001135-main.pdf"><i class="fa-solid fa-download" aria-label="download"></i> PDF</a></p>
+<div class="columns">
+<div class="column" style="width:10%;">
+<div class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1016/j.nmni.2022.101061">
+
+</div>
+</div><div class="column" style="width:10%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1016/j.nmni.2022.101061" data-style="small_circle"></span>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+</div>
+</div>
+<hr>
+<p><strong>Lovey, T.</strong>, Bielecki, M., Gültekin, N., Stettbacher, A., Muggli, F., Stanga, Z., Farnham, A., Deuel, J., &amp; Schlagenhauf, P. (2022). Illness tracking in SARS-CoV-2 tested persons using a smartphone app: A non-interventional, prospective, cohort study. <em>New Microbes and New Infections</em>, 46, 100967. <br>doi:<a href="https://doi.org/10.1016/j.nmni.2022.100967">10.1016/j.nmni.2022.100967</a>&nbsp;&nbsp;preprint: <a href="https://doi.org/10.2139/ssrn.4003916">10.2139/ssrn.4003916</a> &nbsp;&nbsp;<a href="papers/1-s2.0-S2052297522000191-main.pdf"><i class="fa-solid fa-download" aria-label="download"></i> PDF</a></p>
 <div class="columns">
 <div class="column" style="width:10%;">
 <div class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1016/j.nmni.2022.100967">
@@ -198,7 +226,7 @@ Source: Google Scholar
 </div>
 </div>
 <hr>
-<p><strong>Lovey, T.</strong>, O’Keeffe, P., &amp; Petignat, I. (2021). Basic Medical Training for Refugees via Collaborative Blended Learning: Quasi-Experimental Design. Journal of Medical Internet Research, 23(3), e22345. <br>doi:<a href="https://doi.org/10.2196/22345">10.2196/22345</a> &nbsp;&nbsp;<a href="papers/PDF.pdf"><i class="fa-solid fa-download" aria-label="download"></i> PDF</a></p>
+<p><strong>Lovey, T.</strong>, O’Keeffe, P., &amp; Petignat, I. (2021). Basic Medical Training for Refugees via Collaborative Blended Learning: Quasi-Experimental Design. <em>Journal of Medical Internet Research</em>, 23(3), e22345. <br>doi:<a href="https://doi.org/10.2196/22345">10.2196/22345</a> &nbsp;&nbsp;<a href="papers/PDF.pdf"><i class="fa-solid fa-download" aria-label="download"></i> PDF</a></p>
 <div class="columns">
 <div class="column" style="width:10%;">
 <div class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.2196/22345">
@@ -212,19 +240,35 @@ Source: Google Scholar
 </div>
 </div>
 <hr>
-<p>Buchs, A., Conde, A., Frank, A., Gottet, C., Hedrich, N., <strong>Lovey, T.</strong>, Shindleman, H., &amp; Schlagenhauf, P. (2022). The threat of dengue in Europe. New Microbes and New Infections, 49–50, 101061. <br>doi:<a href="https://doi.org/10.1016/j.nmni.2022.101061">10.1016/j.nmni.2022.101061</a> &nbsp;&nbsp;<a href="papers/1-s2.0-S2052297522001135-main.pdf"><i class="fa-solid fa-download" aria-label="download"></i> PDF</a></p>
+<p>Brem, J., Elankeswaran, B., Erne, D., Hedrich, N., <strong>Lovey, T.</strong>, Marzetta, V., Salvado, L.T., Züger, C., &amp; Schlagenhauf, P. (2024). Dengue “homegrown” in Europe (2022 to 2023). <em>New Microbes and New Infections</em>, 56, 101205. <br>doi:<a href="https://doi.org/10.1016/j.nmni.2023.101205">10.1016/j.nmni.2023.101205</a> &nbsp;&nbsp;<a href="papers/101205.pdf"><i class="fa-solid fa-download" aria-label="download"></i> PDF</a></p>
 <div class="columns">
 <div class="column" style="width:10%;">
-<div class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1016/j.nmni.2022.101061">
+<div class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1016/j.nmni.2023.101205">
 
 </div>
 </div><div class="column" style="width:10%;">
-<span class="__dimensions_badge_embed__" data-doi="10.1016/j.nmni.2022.101061" data-style="small_circle"></span>
+<span class="__dimensions_badge_embed__" data-doi="10.1016/j.nmni.2023.101205" data-style="small_circle"></span>
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+</div><div class="column" style="width:80%;">
+
 </div>
 </div>
 <hr>
-<p>Hedrich, N., <strong>Lovey, T.</strong>, Kuenzli, E., Epéron, G., Blanke, U., &amp; Schlagenhauf, P. (2023). Infection tracking in travellers using a mobile app (ITIT): The pilot study. Travel Medicine and Infectious Disease, 52, 102526. <br>doi:<a href="https://doi.org/10.1016/j.tmaid.2022.102526">10.1016/j.tmaid.2022.102526</a>&nbsp;&nbsp;preprint: <a href="https://doi.org/10.2139/ssrn.4282958">10.2139/ssrn.4282958</a> &nbsp;&nbsp;<a href="papers/1-s2.0-S1477893922002721-main.pdf"><i class="fa-solid fa-download" aria-label="download"></i> PDF</a></p>
+<p>Al-Tawfiq, J.A., Hedrich, N., <strong>Lovey, T.</strong>, Gautret, P., &amp; Schlagenhauf, P. (2023). Infectious disease risks at the Rugby World Cup 2023 in France – Beware of Aedes and co! <em>New Microbes and New Infections</em>, 54, 101178 <br>doi:<a href="https://doi.org/10.1016/j.nmni.2023.101178">10.1016/j.nmni.2023.101178</a> &nbsp;&nbsp;<a href="papers/101178.pdf"><i class="fa-solid fa-download" aria-label="download"></i> PDF</a></p>
+<div class="columns">
+<div class="column" style="width:10%;">
+<div class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1016/j.nmni.2023.101178">
+
+</div>
+</div><div class="column" style="width:10%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1016/j.nmni.2023.101178" data-style="small_circle"></span>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+</div><div class="column" style="width:80%;">
+
+</div>
+</div>
+<hr>
+<p>Hedrich, N., <strong>Lovey, T.</strong>, Kuenzli, E., Epéron, G., Blanke, U., &amp; Schlagenhauf, P. (2023). Infection tracking in travellers using a mobile app (ITIT): The pilot study. <em>Travel Medicine and Infectious Disease</em>, 52, 102526. <br>doi:<a href="https://doi.org/10.1016/j.tmaid.2022.102526">10.1016/j.tmaid.2022.102526</a>&nbsp;&nbsp;preprint: <a href="https://doi.org/10.2139/ssrn.4282958">10.2139/ssrn.4282958</a> &nbsp;&nbsp;<a href="papers/1-s2.0-S1477893922002721-main.pdf"><i class="fa-solid fa-download" aria-label="download"></i> PDF</a></p>
 <div class="columns">
 <div class="column" style="width:10%;">
 <div class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1016/j.tmaid.2022.102526">
@@ -238,21 +282,7 @@ Source: Google Scholar
 </div>
 </div>
 <hr>
-<p>O’Keeffe, P., &amp; <strong>Lovey, T.</strong> (2023). Meaningful higher education in Kakuma refugee camp: A case study of why context and contextualization matter. PROSPECTS, 53(1–2), 101–114. <br>doi:<a href="https://doi.org/10.1007/s11125-022-09610-z">10.1007/s11125-022-09610-z</a> &nbsp;&nbsp;<a href="papers/s11125-022-09610-z.pdf"><i class="fa-solid fa-download" aria-label="download"></i> PDF</a></p>
-<div class="columns">
-<div class="column" style="width:10%;">
-<div class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1007/s11125-022-09610-z">
-
-</div>
-</div><div class="column" style="width:10%;">
-<span class="__dimensions_badge_embed__" data-doi="10.1007/s11125-022-09610-z" data-style="small_circle"></span>
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-</div><div class="column" style="width:80%;">
-
-</div>
-</div>
-<hr>
-<p><strong>Lovey, T.</strong>, Hasler, R., Gautret, P., &amp; Schlagenhauf, P. (2023). Travel-related respiratory symptoms and infections in travellers (2000–22): A systematic review and meta-analysis. Journal of Travel Medicine, taad081. <br>doi:<a href="https://doi.org/10.1093/jtm/taad081">10.1093/jtm/taad081</a>&nbsp;&nbsp;preprint: <a href="https://doi.org/10.2139/ssrn.4381176">10.2139/ssrn.4381176</a> &nbsp;&nbsp;<a href="papers/taad081.pdf"><i class="fa-solid fa-download" aria-label="download"></i> PDF</a></p>
+<p><strong>Lovey, T.</strong>, Hasler, R., Gautret, P., &amp; Schlagenhauf, P. (2023). Travel-related respiratory symptoms and infections in travellers (2000–22): A systematic review and meta-analysis. <em>Journal of Travel Medicine</em>, taad081. <br>doi:<a href="https://doi.org/10.1093/jtm/taad081">10.1093/jtm/taad081</a>&nbsp;&nbsp;preprint: <a href="https://doi.org/10.2139/ssrn.4381176">10.2139/ssrn.4381176</a> &nbsp;&nbsp;<a href="papers/taad081.pdf"><i class="fa-solid fa-download" aria-label="download"></i> PDF</a></p>
 <div class="columns">
 <div class="column" style="width:10%;">
 <div class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1093/jtm/taad081">
@@ -266,7 +296,21 @@ Source: Google Scholar
 </div>
 </div>
 <hr>
-<p><strong>Lovey, T.</strong>, &amp; Schlagenhauf, P. (2023). Augmentation des températures et menace du paludisme en Europe: Un retour indésirable? Revue Médicale Suisse, 19(825), 849–852. <br>doi:<a href="https://doi.org/10.53738/REVMED.2023.19.825.849">10.53738/REVMED.2023.19.825.849</a> &nbsp;&nbsp;<a href="papers/849-52_44377.pdf"><i class="fa-solid fa-download" aria-label="download"></i> PDF</a></p>
+<p>O’Keeffe, P., &amp; <strong>Lovey, T.</strong> (2023). Meaningful higher education in Kakuma refugee camp: A case study of why context and contextualization matter. <em>PROSPECTS</em>, 53(1–2), 101–114. <br>doi:<a href="https://doi.org/10.1007/s11125-022-09610-z">10.1007/s11125-022-09610-z</a> &nbsp;&nbsp;<a href="papers/s11125-022-09610-z.pdf"><i class="fa-solid fa-download" aria-label="download"></i> PDF</a></p>
+<div class="columns">
+<div class="column" style="width:10%;">
+<div class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1007/s11125-022-09610-z">
+
+</div>
+</div><div class="column" style="width:10%;">
+<span class="__dimensions_badge_embed__" data-doi="10.1007/s11125-022-09610-z" data-style="small_circle"></span>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+</div><div class="column" style="width:80%;">
+
+</div>
+</div>
+<hr>
+<p><strong>Lovey, T.</strong>, &amp; Schlagenhauf, P. (2023). Augmentation des températures et menace du paludisme en Europe: Un retour indésirable? <em>Revue Médicale Suisse</em>, 19(825), 849–852. <br>doi:<a href="https://doi.org/10.53738/REVMED.2023.19.825.849">10.53738/REVMED.2023.19.825.849</a> &nbsp;&nbsp;<a href="papers/849-52_44377.pdf"><i class="fa-solid fa-download" aria-label="download"></i> PDF</a></p>
 <div class="columns">
 <div class="column" style="width:10%;">
 <div class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.53738/REVMED.2023.19.825.849">
@@ -274,6 +318,20 @@ Source: Google Scholar
 </div>
 </div><div class="column" style="width:10%;">
 <span class="__dimensions_badge_embed__" data-doi="10.53738/REVMED.2023.19.825.849" data-style="small_circle"></span>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+</div><div class="column" style="width:80%;">
+
+</div>
+</div>
+<hr>
+<p><strong>Lovey, T.</strong>, Hedrich, N., Grobusch, M. P., Bernhard, J., Schlagenhauf, P., For the ITIT Global Network (2023). Surveillance of Global, Travel-Related Illness Using a Novel App: A Multivariable, Cross-Sectional, Digital Health Study. <em>SSRN</em> <br>doi:<a href="https://dx.doi.org/10.2139/ssrn.4603329">10.2139/ssrn.4603329</a>&nbsp;&nbsp;preprint: <a href="https://dx.doi.org/10.2139/ssrn.4603329">10.2139/ssrn.4603329</a> &nbsp;&nbsp;<a href="papers/SSRN-id4603329-4.pdf"><i class="fa-solid fa-download" aria-label="download"></i> PDF</a></p>
+<div class="columns">
+<div class="column" style="width:10%;">
+<div class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.2139/ssrn.4603329">
+
+</div>
+</div><div class="column" style="width:10%;">
+<span class="__dimensions_badge_embed__" data-doi="10.2139/ssrn.4603329" data-style="small_circle"></span>
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 </div><div class="column" style="width:80%;">
 
@@ -313,9 +371,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -351,10 +423,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -364,8 +435,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -380,6 +460,238 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -422,10 +734,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center"><span class="faux-block"><a href="https://twitter.com/thibaultlovey"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/thibault-lovey-098b3430"><i class="fab fa-linkedin"></i></a>&nbsp;&nbsp;&nbsp;<a href="mailto:thibault.lovey@uzh.ch"><i class="far fa-envelope"></i></a><br></span> <span class="faux-block"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2023 Thibault Lovey<br> </span> <span class="faux-block" style="margin-top: 10px;"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-sa" aria-label="creative-commons-sa"></i> Creative Commons CC BY-SA 4.0</span><br>
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p><span class="faux-block"><a href="https://twitter.com/thibaultlovey"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/thibault-lovey-098b3430"><i class="fab fa-linkedin"></i></a>&nbsp;&nbsp;&nbsp;<a href="mailto:thibault.lovey@uzh.ch"><i class="far fa-envelope"></i></a><br></span> <span class="faux-block"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2023 Thibault Lovey<br> </span> <span class="faux-block" style="margin-top: 10px;"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-sa" aria-label="creative-commons-sa"></i> Creative Commons CC BY-SA 4.0</span></p>
 </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
   </div>
 </footer>
+
 
 
 
